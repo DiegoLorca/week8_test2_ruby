@@ -8,7 +8,7 @@
 #   end
 # end
 # # name
-# #
+# #############
 # def promedio_1
 #   file = File.open('student.csv', 'r')
 #   data = file.readlines.map{ |ele| ele.split(', ').map(&:chomp) }
@@ -23,13 +23,6 @@
 #   end
 # end
 # promedio
-# def crea_archivo
-#   File.open('archivo.csv', 'w') do |file|
-#   file.puts "El alumno #{name} tiene un promedio de #{promedio}"
-#   #puts "El alumno #{name} tiene un promedio de #{promedio}"
-# end
-# end
-# crea_archivo
 ######################################
 # def notes
   # data = file.readlines.map{ |ele| ele.split(', ').map(&:chomp) }
@@ -66,33 +59,9 @@ end
 
 def total_absence
 
-  # nombre = name
-  #
-  # file = File.open('student.csv', 'r')
-  # data = file.readlines.map{ |ele| ele.split(', ').map(&:chomp) }
-  # file.close
-  # data.each do |people|
-  #   people.delete_at(0)
-  #   print people
-  #   print people[0]
-  #
-  #   people.each do |i|
-  #     ina = 0
-  #     i.each do |x|
-  #       ina += 1 if i == 'A'
-  #       puts "El alunno #{nombre} a faltado #{x} veces"
-  #     end
-  #     puts "#{i}"
-  #   end
-  #   puts ' '
-  # end
 end
 
-#total_absence
 def approved_student
-  # note = gets.chomp
-  # if note == ""
-  #   puts "El alumno #{name} tiene un promedio #{promedio_1} " if promedio >= 5
 
 end
 
